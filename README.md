@@ -11,7 +11,7 @@ This is a telegram bot instagram downloader built with pure PHP.
 
 1. link your domain to the server
 2. head over to telegram `t.me/BotFather` and create your own bot. save bot token which botfather will give you
-3. extract neon_downloader folder to your server's public_html folder
+3. extract neondownloader folder to your server's public_html folder
 4. head over to this link once `https://api.telegram.org/bot{bot_token}/setWebhook?url={yourdomain.com/index.php}` which `{bot_token}` is the token you got from botfather. this will set telegram bot api weebhooks to index.php file inside public_html folder
 
 # Database Configuration
