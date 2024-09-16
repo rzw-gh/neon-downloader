@@ -16,16 +16,16 @@ This is a telegram bot instagram downloader built with pure PHP.
 
 # Database Configuration
 
-### 1. open phpmyadmin from cpanel
-### 2. import neondownloader.sql to create all database tables
-### 3. find config table and insert a row with these informations:
+1. open phpmyadmin from cpanel
+2. import neondownloader.sql to create all database tables
+3. find config table and insert a row with these informations:
 ```bash
 your telegram account id for `developer_tid` and `super_user_tid` columns # you can find your telegram id with the help of t.me/userinfobot
 bot token from botfather for `bot_token` column
 your telegram bot username for `bot_username` column
 ```
-### 4. from `cpanel / Manage My Databases` create a root user with all priveliages and link it to your database `neondownloader`
-### 5. head over to `core/config.php` and change these variables on your neeeds:
+4. from `cpanel / Manage My Databases` create a root user with all priveliages and link it to your database `neondownloader`
+5. head over to `core/config.php` and change these variables on your neeeds:
 ```bash
 $hostname = "localhost";
 $database = "database_name";
