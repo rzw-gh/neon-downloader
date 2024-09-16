@@ -24,7 +24,7 @@ your telegram account id for `developer_tid` and `super_user_tid` columns # you 
 bot token from botfather for `bot_token` column
 your telegram bot username for `bot_username` column
 ```
-4. from `cpanel / Manage My Databases` create a root user with all priveliages and link it to your database `neondownloader`
+4. from `cpanel / Manage My Databases` create a root user with all privileges and link it to your database `neondownloader`
 5. head over to `core/config.php` and change these variables on your neeeds:
 ```bash
 $hostname = "localhost";
