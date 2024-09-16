@@ -2,6 +2,7 @@
 error_reporting(0);
 set_time_limit(60);
 
+define("PROXIES", dirname(__FILE__).'/proxies.txt');
 define("YT_API_KEY", "youtube_access_key");
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/core/orm.php");
